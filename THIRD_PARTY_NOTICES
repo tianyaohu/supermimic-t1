@@ -1,0 +1,36 @@
+Third-party notices for supermimic_t1/
+======================================
+
+supermimic_t1/ contains code adapted from "supermimic_vibed", an unofficial
+reproduction of SuperMimic (arXiv 2610.28480) by Chong Zhang,
+https://github.com/zita-ch/supermimic_vibed (commit 0525a23).
+Files adapted from it carry the header line
+"Adapted from supermimic_vibed (MIT, Copyright (c) 2026 ETH Zurich, Chong Zhang)".
+Its license:
+
+MIT License
+
+Copyright (c) 2026 ETH Zurich, Chong Zhang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Booster T1 robot description and motion data (read at run time from
+booster_assets, BSD-3-Clause, Copyright (c) 2025 BoosterRobotics) and actuator
+constants taken from booster_train (Apache-2.0) are not redistributed here;
+generated files derived from them live in the git-ignored data/ directory.
